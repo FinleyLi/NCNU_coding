@@ -1,0 +1,10 @@
+apt-get update
+apt-get upgrade
+(apt-get dis-upgrade)
+apt-get install default-jdk
+
+java -version
+
+環境安裝完畢可以開始編譯 .java
+
+思考流程 => 窮舉；逼近；消去
