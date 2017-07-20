@@ -1,9 +1,10 @@
-apt-get update
-apt-get upgrade
-(apt-get dis-upgrade)
-apt-get install default-jdk
+use the `sudo ` comment
+`apt-get update`
+`apt-get upgrade`
+`apt-get dis-upgrade`
 
-java -version
+安裝編譯器`apt-get install default-jdk`
+檢查版本`java -version`
 
 環境安裝完畢可以開始編譯 .java
 
