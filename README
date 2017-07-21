@@ -1,11 +1,12 @@
-use the `sudo ` comment
-`apt-get update`
-`apt-get upgrade`
-`apt-get dis-upgrade`
+use the 'sudo ' comment
+'apt-get update'
+'apt-get upgrade'
+'apt-get dis-upgrade'
 
-安裝編譯器`apt-get install default-jdk`
-檢查版本`java -version`
+安裝編譯器'apt-get install default-jdk'
+檢查版本'java -version'
 
-環境安裝完畢可以開始編譯 .java
+環境安裝完畢可以開始編譯 .java 'javac abc.java'
+執行編譯過的檔案 .class 'java abc'
 
 思考流程 => 窮舉；逼近；消去
