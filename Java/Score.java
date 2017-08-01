@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class Score {
     public static void main(String[] argv) {
         Scanner input = new Scanner(System.in);
-        //²Ä€@Šæ¿é€JŸÇ¥Í€HŒÆ
+        // 第一行輸入學生人數
         int numStu = input.nextInt();
         int[] scores = new int[numStu];
-        //²Ä€GŠæ¬°ŠUŸÇ¥Í€ÀŒÆ(0~100 ¶¡)
+        // 第二行為各學生分數(0~100間)
         for (int i = 0; i < numStu; i++)
             scores[i] = input.nextInt();
         // insertion sort scores
@@ -17,7 +17,7 @@ public class Score {
                 scores[j + 1] = scores[j];
             scores[j + 1] = v;
         }       
-        //¥Ñ€pŠÓ€jŠL¥X©ÒŠ³ŠšÁZ¡AšâŒÆŠr€§¶¡¥H€@­ÓªÅ¥Õ¶¡®æ¡A³Ì«á€@­ÓŒÆŠr«áµLªÅ
+        // 由小而大印出所有成績，兩數字之間以一空白間隔
         System.out.print(scores[0]);
         for (int i = 1; i < numStu; i++)
             System.out.print(" " + scores[i]);
