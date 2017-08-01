@@ -1,15 +1,15 @@
 use the `sudo` comment
-'''linux
+'''
 	apt-get update
 	apt-get upgrade
 	apt-get dis-upgrade
 '''
 
 安裝編譯器
-	'apt-get install default-jdk'
+	`apt-get install default-jdk`
 
 檢查版本
-	'java -version'
+	`java -version`
 
 環境安裝完畢可以開始編譯 .java 
 	'javac abc.java'
@@ -22,9 +22,12 @@ use the `sudo` comment
 
 思考流程 => 窮舉；逼近；消去
 
+編輯說明檔案
+	'gedit README.md'
+
 push to github
-```linux
+'''
 	git add .
 	git commit -m '說明文字'
 	git push
-```
+'''
