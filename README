@@ -1,5 +1,5 @@
-use the 'sudo ' comment
-'''
+use the `sudo` comment
+'''linux
 	apt-get update
 	apt-get upgrade
 	apt-get dis-upgrade
@@ -7,6 +7,7 @@ use the 'sudo ' comment
 
 安裝編譯器
 	'apt-get install default-jdk'
+
 檢查版本
 	'java -version'
 
@@ -21,9 +22,9 @@ use the 'sudo ' comment
 
 思考流程 => 窮舉；逼近；消去
 
-git
-'''
+push to github
+```linux
 	git add .
 	git commit -m '說明文字'
 	git push
-'''
+```
