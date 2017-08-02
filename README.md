@@ -26,6 +26,8 @@ use the `sudo` comment
 	`gedit README.md`
 
 push to github
-	`git add .`
-	`git commit -m '說明文字'`
-	`git push`
+```
+	git add .
+	git commit -m '說明文字'
+	git push
+```
