@@ -6,7 +6,7 @@ void radixSort(int[]);
 int main(void) { 
     int data[10] = {73, 22, 93, 43, 55, 14, 28, 65, 39, 81}; 
       
-    printf("\n�Ƨǫe: "); 
+    printf("\排序前: "); 
     int i;
     for(i = 0; i < 10; i++) 
         printf("%d ", data[i]); 
@@ -15,7 +15,7 @@ int main(void) {
 
     radixSort(data);
     
-    printf("\n�Ƨǫ�: "); 
+    printf("\排序後: "); 
     for(i = 0; i < 10; i++) 
         printf("%d ", data[i]); 
 
@@ -36,7 +36,7 @@ void radixSort(int data[]) {
             order[lsd]++; 
         } 
         
-        // ���s�ƦC
+        // 重新排列
         int k = 0;
         for(i = 0; i < 10; i++) { 
             if(order[i] != 0)  {
